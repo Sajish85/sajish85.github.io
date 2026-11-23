@@ -59,7 +59,7 @@ This is not a ranking. The three have different architectures and differ in more
 
 ## Links
 
-- Paper: [10.5281/zenodo.24466483](https://doi.org/10.5281/zenodo.24466483)
+- Paper: [10.5281/zenodo.24466482](https://doi.org/10.5281/zenodo.24466482)
 - Data and harness: <https://github.com/Sajish85/what-promotion-admits>
 - pg_auto_failover issue: <https://github.com/hapostgres/pg_auto_failover/issues/1204>
 - Patroni issue: <https://github.com/patroni/patroni/issues/3824>
