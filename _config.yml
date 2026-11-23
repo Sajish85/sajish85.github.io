@@ -1,0 +1,7 @@
+title: "Sajish Krishnan"
+author: "Sajish Krishnan"
+description: "Database reliability and failover behaviour, measured."
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+url: "https://sajish85.github.io"

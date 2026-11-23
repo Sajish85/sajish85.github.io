@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="966" height="516" viewBox="0 0 966 516" font-family="Helvetica, Arial, sans-serif">
+<rect width="966" height="516" fill="#ffffff"/>
+<text x="8" y="26" font-size="18" font-weight="bold" fill="#222">Promotion outcome with the candidate 100 MiB behind</text>
+<text x="8" y="48" font-size="12" fill="#444">10 valid runs per cell; asynchronous replication, one host per stack; loss in acknowledged transactions per run</text>
+<text x="358.0" y="93" font-size="14" font-weight="bold" text-anchor="middle" fill="#222">Patroni 4.1.5</text>
+<text x="598.0" y="93" font-size="14" font-weight="bold" text-anchor="middle" fill="#222">pg_auto_failover 2.2</text>
+<text x="838.0" y="93" font-size="14" font-weight="bold" text-anchor="middle" fill="#222">CloudNativePG 1.30.2</text>
+<text x="8" y="143.0" font-size="13" fill="#222">Automatic, slow gap (B)</text>
+<rect x="241" y="109" width="234" height="58" rx="4" fill="#d6ecd9" stroke="#2f7d3b" stroke-width="1.5"/>
+<text x="358.0" y="134" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">refused 10/10</text>
+<text x="358.0" y="153" font-size="12" text-anchor="middle" fill="#222">0 lost</text>
+<rect x="481" y="109" width="234" height="58" rx="4" fill="#d6ecd9" stroke="#2f7d3b" stroke-width="1.5"/>
+<text x="598.0" y="134" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">refused 10/10</text>
+<text x="598.0" y="153" font-size="12" text-anchor="middle" fill="#222">0 lost</text>
+<rect x="721" y="109" width="234" height="58" rx="4" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="838.0" y="134" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">promoted, silent 10/10</text>
+<text x="838.0" y="153" font-size="12" text-anchor="middle" fill="#222">11,763 to 11,778 lost</text>
+<text x="8" y="207.0" font-size="13" fill="#222">Automatic, burst (Bb)</text>
+<rect x="241" y="173" width="234" height="58" rx="4" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="358.0" y="207" font-size="13" text-anchor="middle" fill="#444">not run</text>
+<rect x="481" y="173" width="234" height="58" rx="4" fill="#d6ecd9" stroke="#2f7d3b" stroke-width="1.5"/>
+<text x="598.0" y="198" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">refused 10/10</text>
+<text x="598.0" y="217" font-size="12" text-anchor="middle" fill="#222">0 lost</text>
+<rect x="721" y="173" width="234" height="58" rx="4" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="838.0" y="207" font-size="13" text-anchor="middle" fill="#444">not run</text>
+<text x="8" y="271.0" font-size="13" fill="#222">Operator-manual (C)</text>
+<rect x="241" y="237" width="234" height="58" rx="4" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="358.0" y="262" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">promoted, silent 10/10</text>
+<text x="358.0" y="281" font-size="12" text-anchor="middle" fill="#222">11,881 to 11,898 lost</text>
+<rect x="481" y="237" width="234" height="58" rx="4" fill="#d6ecd9" stroke="#2f7d3b" stroke-width="1.5"/>
+<text x="598.0" y="262" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">refused 10/10</text>
+<text x="598.0" y="281" font-size="12" text-anchor="middle" fill="#222">0 lost (exit 12 after 60 s)</text>
+<rect x="721" y="237" width="234" height="58" rx="4" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="838.0" y="262" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">promoted, silent 10/10</text>
+<text x="838.0" y="281" font-size="12" text-anchor="middle" fill="#222">11,759 to 11,776 lost</text>
+<text x="8" y="335.0" font-size="13" fill="#222">Status path cut, then manual (E)</text>
+<rect x="241" y="301" width="234" height="58" rx="4" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="358.0" y="326" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">promoted, silent 10/10</text>
+<text x="358.0" y="345" font-size="12" text-anchor="middle" fill="#222">11,877 to 11,897 lost</text>
+<rect x="481" y="301" width="234" height="58" rx="4" fill="#d6ecd9" stroke="#2f7d3b" stroke-width="1.5"/>
+<text x="598.0" y="326" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">refused 10/10</text>
+<text x="598.0" y="345" font-size="12" text-anchor="middle" fill="#222">0 lost (weaker analogue)</text>
+<rect x="721" y="301" width="234" height="58" rx="4" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="838.0" y="335" font-size="13" text-anchor="middle" fill="#444">no E cell</text>
+<text x="8" y="399.0" font-size="13" fill="#222">Bypass pg_promote() (D)</text>
+<rect x="241" y="365" width="234" height="58" rx="4" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="358.0" y="390" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">promoted 10/10</text>
+<text x="358.0" y="409" font-size="12" text-anchor="middle" fill="#222">11,876 to 11,893 lost</text>
+<rect x="481" y="365" width="234" height="58" rx="4" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="598.0" y="390" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">promoted 10/10</text>
+<text x="598.0" y="409" font-size="12" text-anchor="middle" fill="#222">11,879 to 11,899 lost</text>
+<rect x="721" y="365" width="234" height="58" rx="4" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="838.0" y="390" font-size="13" font-weight="bold" text-anchor="middle" fill="#222">promoted 10/10</text>
+<text x="838.0" y="409" font-size="12" text-anchor="middle" fill="#222">11,736 to 11,773 lost</text>
+<rect x="8" y="436" width="16" height="16" rx="3" fill="#d6ecd9" stroke="#2f7d3b" stroke-width="1.5"/>
+<text x="32" y="449" font-size="12" fill="#222">refused (no promotion)</text>
+<rect x="218" y="436" width="16" height="16" rx="3" fill="#f6d3cf" stroke="#b3392e" stroke-width="1.5"/>
+<text x="242" y="449" font-size="12" fill="#222">promoted, loss shown</text>
+<rect x="428" y="436" width="16" height="16" rx="3" fill="#e8e8e8" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="452" y="449" font-size="12" fill="#222">not run</text>
+<text x="8" y="474" font-size="11" fill="#444">pg_auto_failover refuses above its 16 MiB gate; its E cell cuts the keeper-to-monitor path (a weaker analogue).</text>
+<text x="8" y="490" font-size="11" fill="#444">The burst cell (Bb) at 100 MiB was run on pg_auto_failover only. Burst gaps formed in 1.9 s or more at this size.</text>
+</svg>
